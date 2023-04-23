@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Hallows' Catch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="screen">
+        <h1>All Hallows' Catch</h1>
+        <button class="btn" id="start-btn">Play Game</button>
+    </div>
+    
+    <div class="screen">
+        <h1>What is your favorite Hallow?</h1>
+        <ul class="hallow-list">
+            <li>
+                <button class="choose-hallow-btn">
+                    <p>Jack</p>
+                    <img src="https://pngimg.com/uploads/pumpkin/pumpkin_PNG86672.png" alt="jack-o'-lantern">
+                </button>
+            </li>
+            <li>
+                <button class="choose-hallow-btn">
+                    <p>Ghost</p>
+                    <img src="https://pngimg.com/uploads/ghost/ghost_PNG18.png" alt="ghost">
+                </button>
+            </li>
+            <li>
+                <button class="choose-hallow-btn">
+                    <p>Witch</p>
+                    <img src="https://pngimg.com/uploads/witch/witch_PNG88.png" alt="witch">
+                </button>
+            </li>
+            <li>
+                <button class="choose-hallow-btn">
+                    <p>Skeleton</p>
+                    <img src="https://pngimg.com/uploads/skeleton/skeleton_PNG42647.png" alt="skeleton">
+                </button>
+            </li>
+        </ul>
+    </div>
+
+    <div class="screen game-container" id="game-container">
+        <h3 id="time" class="time">Time: 00:00</h3>
+        <h3 id="score" class="score">Score: 0</h3>
+        <h5 id="message" class="message">
+            Are you annoyed yet? <br>
+            You are playing an impossible game!
+        </h5>
+    </div>
+
+    <!-- script -->
+    <script src="script.js"></script>
+</body>
+</html>
